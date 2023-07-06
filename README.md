@@ -3,7 +3,7 @@
 
 - 🌱 I’m currently learning **PHP, TypeScript**
 
-- 📫 How to reach me **schcolnikj@gmail.com**
+- 📫 You can reach me **schcolnikj@gmail.com, https://api.whatsapp.com/send?phone=541167062286** 
 
 - ⚡ Fun fact **I hold a Bachelor's degree in Film Music Composition, graduated in 2023 from the Universidad Católica Argentina.**
 
