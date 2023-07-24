@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Juan Schcolnik</h1>
 <h3 align="center">A frontend developer from Argentina</h3>
 
-- 🌱 I’m currently learning **PHP, TypeScript**
+- 🌱 I’m currently learning **TypeScript**
 
 - 📫 You can reach me **schcolnikj@gmail.com, https://api.whatsapp.com/send?phone=541167062286** 
 
