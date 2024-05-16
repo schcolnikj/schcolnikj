@@ -3,7 +3,7 @@
 
 - 🌱 I am currently working with **React Native**, **Redux Toolkit** and **Typescript**.
 
-- 📫 You can reach me **schcolnikj@gmail.com
+- 📫 You can reach me **schcolnikj@gmail.com**
 
 - ⚡ Fun fact: **I hold a Bachelor's degree in Film Music Composition, graduated in 2023 from the Universidad Católica Argentina.**
 
