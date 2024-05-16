@@ -1,9 +1,9 @@
 <h1 align="center">Hi 👋, I'm Juan Schcolnik</h1>
-<h3 align="center">A frontend developer from Argentina</h3>
+<h3 align="center">I am currently working as a frontender for Sirius Software</h3>
 
-- 🌱 I’m currently learning **TypeScript**
+- 🌱 I am currently working with **React Native**, **Redux Toolkit** and **Typescript**.
 
-- 📫 You can reach me **schcolnikj@gmail.com, https://api.whatsapp.com/send?phone=541167062286** 
+- 📫 You can reach me **schcolnikj@gmail.com
 
 - ⚡ Fun fact: **I hold a Bachelor's degree in Film Music Composition, graduated in 2023 from the Universidad Católica Argentina.**
 
