@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Juan Schcolnik</h1>
-<h3 align="center">I am currently working as a frontender for Sirius Software</h3>
+<h3 align="center">I am currently working as a Software Developer for Sirius Software</h3>
 
-- 🌱 I am currently working with **React Native**, **Redux Toolkit** and **Typescript**.
+- 🌱 I am currently working with **React**, **Next**, **GraphQL**, **React Native**, **Redux Toolkit**, **Node** and **Typescript**.
 
 - 📫 You can reach me **schcolnikj@gmail.com**
 
