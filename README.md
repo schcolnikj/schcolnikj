@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Juan Schcolnik</h1>
-<h3 align="center">I am currently working as a Software Developer for Sirius Software</h3>
+<h3 align="center">I am currently working as a Lead Engineer for MedVision</h3>
 
-- 🌱 I am currently working with **React**, **Next**, **GraphQL**, **React Native**, **Redux Toolkit**, **Node** and **Typescript**.
+- 🌱 I am currently working with **React**, **Next**, **GraphQL**, **React Native**, **Redux Toolkit**, **Node**, **Deno**, **Supabase**, **Typescript**, **Playwright**, **n8n** and more.
 
 - 📫 You can reach me **schcolnikj@gmail.com**
 
