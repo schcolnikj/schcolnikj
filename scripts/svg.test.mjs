@@ -35,7 +35,7 @@ const profile = {
 test('sequencer from real fixture', () => {
   const svg = renderSequencer({ calendar: fixture, stats: computeStats(fixture), profile });
   assert.match(svg, /^<svg[^>]+viewBox="0 0 830 490"/);
-  for (const s of ['2,440', '46 / WK', 'STREAK 12', 'PATTERN 2026', '<title>', 'steps(53)']) assert.ok(svg.includes(s), s);
+  for (const s of ['2,440', '46 / WK', 'STREAK 12', 'PATTERN 2026', '<title>', 'steps(53)', 'prefers-reduced-motion']) assert.ok(svg.includes(s), s);
   assert.equal((svg.match(/class="pad/g) || []).length, 368);
   assert.equal((svg.match(/class="pad on"/g) || []).length, 177);
   assert.ok(!/(href|url\()\s*=?\s*["(]?https?:/.test(svg), 'no external refs');

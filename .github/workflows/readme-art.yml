@@ -3,6 +3,7 @@ on:
   schedule: [{ cron: '0 6 * * *' }]   # 03:00 Buenos Aires
   workflow_dispatch:
 permissions: { contents: write }
+concurrency: { group: readme-art, cancel-in-progress: false }
 jobs:
   draw:
     runs-on: ubuntu-latest

@@ -41,6 +41,7 @@ async function main() {
     calendar = await fetchCalendar(LOGIN, token);
   }
   const stats = computeStats(calendar);
+  if (stats.total === 0) throw new Error('Calendar has zero contributions; keeping the existing images');
   const sequencer = renderSequencer({ calendar, stats, profile: PROFILE });
   const mixer = renderMixer({ stats, profile: PROFILE });
   mkdirSync('assets', { recursive: true });

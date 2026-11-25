@@ -57,7 +57,7 @@ export function renderSequencer({ calendar, stats, profile }) {
 
   return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 830 490" width="830" height="490" role="img">
 <title>Step sequencer: each weekday is a drum track, each week a step, and lit pads are days with contributions</title>
-<style>.run{animation:run 7s steps(53) infinite}@keyframes run{from{transform:translateX(0)}to{transform:translateX(686px)}}</style>
+<style>.run{animation:run 7s steps(53) infinite}@keyframes run{from{transform:translateX(0)}to{transform:translateX(686px)}}@media (prefers-reduced-motion: reduce){.run{animation:none}}</style>
 <rect width="830" height="490" rx="14" fill="${PANEL}"/>
 <line x1="14" x2="816" y1="1.5" y2="1.5" stroke="#34353a"/>
 ${text(28, 44, SANS, 13, ACCENT, `${initials}-${String(stats.year).slice(-2)} · STEP SEQUENCER`, ' font-weight="700" letter-spacing="3"')}
