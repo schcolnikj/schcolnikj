@@ -97,8 +97,9 @@ export function renderMixer({ stats, profile }) {
   const maxMonth = Math.max(0, ...stats.months.map((m) => m.total));
   const peakIdx = stats.peak ? stats.months.findIndex((m) => m.total === stats.peak.total) : -1;
 
+  const pitch = Math.min(53, 700 / stats.months.length); // keeps every strip left of MASTER (x=728)
   const channels = stats.months.map((m, k) => {
-    const cx = 28 + k * 53 + 26.5;
+    const cx = 28 + k * pitch + pitch / 2;
     const ky = 254 - (maxMonth ? m.total / maxMonth : 0) * 180 - 7;
     return `<rect x="${cx - 2}" y="74" width="4" height="180" rx="2" fill="#0d0e10"/>
 <rect class="${k === peakIdx ? 'cap peak' : 'cap'}" x="${cx - 13}" y="${ky.toFixed(1)}" width="26" height="14" rx="3" fill="${k === peakIdx ? ACCENT : INK}"/>

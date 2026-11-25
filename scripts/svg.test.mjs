@@ -66,3 +66,24 @@ test('mixer', () => {
   assert.equal((svg.match(/class="cap peak"/g) || []).length, 1);
   for (const s of ['MASTER', 'TypeScript', ...profile.stack]) assert.ok(svg.includes(s), s);
 });
+
+// 371 days from a Sunday (53 full weeks), 1 contribution each, in GraphQL shape.
+function calendarFrom(startDate, dayCount) {
+  const days = Array.from({ length: dayCount }, (_, i) => {
+    const d = new Date(Date.parse(`${startDate}T00:00:00Z`) + i * 86400000);
+    return { date: d.toISOString().slice(0, 10), contributionCount: 1, contributionLevel: 'FIRST_QUARTILE', weekday: d.getUTCDay() };
+  });
+  const weeks = [];
+  for (let i = 0; i < days.length; i += 7) weeks.push({ contributionDays: days.slice(i, i + 7) });
+  return { totalContributions: dayCount, weeks };
+}
+
+test('mixer fits a 14-month window', () => {
+  const stats = computeStats(calendarFrom('2026-12-27', 371));
+  assert.equal(stats.months.length, 14);
+  const svg = renderMixer({ stats, profile });
+  assert.equal((svg.match(/class="cap/g) || []).length, 14);
+  const xs = [...svg.matchAll(/class="cap[^"]*" x="([\d.]+)"/g)].map((m) => +m[1]);
+  assert.equal(xs.length, 14);
+  for (const x of xs) assert.ok(x + 26 <= 728, `cap at ${x} overlaps MASTER`);
+});
