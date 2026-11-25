@@ -64,10 +64,10 @@
 <text x="637.5" y="280" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'SF Pro Text', system-ui, 'Segoe UI', Roboto, sans-serif" font-size="11" fill="#ece4d2" text-anchor="middle" font-weight="600">Oct</text>
 <text x="637.5" y="296" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, monospace" font-size="10" fill="#ef7200" text-anchor="middle">188</text>
 <rect x="688.5" y="74" width="4" height="180" rx="2" fill="#0d0e10"/>
-<rect class="cap" x="677.5" y="211.2" width="26" height="14" rx="3" fill="#ece4d2"/>
-<line x1="677.5" x2="703.5" y1="218.2" y2="218.2" stroke="#1e1f22" stroke-width="1.5"/>
+<rect class="cap" x="677.5" y="202.7" width="26" height="14" rx="3" fill="#ece4d2"/>
+<line x1="677.5" x2="703.5" y1="209.7" y2="209.7" stroke="#1e1f22" stroke-width="1.5"/>
 <text x="690.5" y="280" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'SF Pro Text', system-ui, 'Segoe UI', Roboto, sans-serif" font-size="11" fill="#ece4d2" text-anchor="middle" font-weight="600">Nov</text>
-<text x="690.5" y="296" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, monospace" font-size="10" fill="#ef7200" text-anchor="middle">89</text>
+<text x="690.5" y="296" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, monospace" font-size="10" fill="#ef7200" text-anchor="middle">110</text>
 <rect class="master" x="728" y="60" width="76" height="248" rx="8" fill="#17181b"/>
 <rect x="764" y="74" width="4" height="180" rx="2" fill="#0d0e10"/>
 <rect x="753" y="67" width="26" height="14" rx="3" fill="#ef7200"/>
