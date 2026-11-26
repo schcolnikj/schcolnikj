@@ -472,6 +472,7 @@
 <rect class="pad" x="793.1" y="280" width="10.4" height="22" rx="2" fill="#2c2d31" fill-opacity="1"/>
 <rect class="pad" x="793.1" y="308" width="10.4" height="22" rx="2" fill="#2c2d31" fill-opacity="1"/>
 <rect class="pad on" x="793.1" y="336" width="10.4" height="22" rx="2" fill="#ef7200" fill-opacity="0.55"/>
+<rect class="pad" x="793.1" y="364" width="10.4" height="22" rx="2" fill="#2c2d31" fill-opacity="1"/>
 <g class="run">
 <rect x="119" y="252" width="12.4" height="198" rx="3" fill="#ffffff" fill-opacity="0.08"/>
 <circle cx="125.2" cy="246" r="2.8" fill="#ff3b30"/>
